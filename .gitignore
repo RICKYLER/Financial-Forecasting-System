@@ -1,0 +1,38 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node/Vite build outputs & packages
+node_modules/
+dist/
+.eslintcache
+
+# R files
+.Rhistory
+.RData
+.Ruserdata
+
+# Agents and Skills
+.agents/
+skills-lock.json
